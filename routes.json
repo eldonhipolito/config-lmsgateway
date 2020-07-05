@@ -1,0 +1,100 @@
+[
+	{
+		"id": "test",
+		"upstreamHost": "http://httpbin.org:80",
+		"matchUrl": [
+			"/api/sys/anything"
+		],
+		"stripPath": "api/sys",
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"DELETE",
+			"PATCH"
+		],
+		"protectedResource": true
+	},
+	{
+		"id": "lmscore",
+		"upstreamHost": "http://lmscore:8080",
+		"matchUrl": [
+			"/api/lmscore/.*"
+		],
+		"stripPath": "/api/lmscore",
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"PATCH",
+			"DELETE"
+		],
+		"protectedResource": true
+	},
+	{
+		"id": "lmsauth-authenticate",
+		"upstreamHost": "http://lmsauth:8080",
+		"matchUrl": [
+			"/api/lmsauth/authenticate"
+		],
+		"stripPath": "/api/lmsauth",
+		"methods": [
+			"POST"
+		],
+		"protectedResource": false
+	},
+	{
+		"id": "lmsquiz",
+		"upstreamHost": "http://lmsquiz:8080",
+		"matchUrl": [
+			"/api/lmsquiz/**"
+		],
+		"stripPath": "/api/lmsquiz",
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"PATCH",
+			"DELETE"
+		],
+		"protectedResource": true
+	},
+	{
+		"id": "lmsweb-static",
+		"upstreamHost": "http://lmsweb:3000",
+		"matchUrl": [
+			"/static/**"
+		],
+		"methods": [
+			"GET"
+		],
+		"protectedResource": false
+	},
+	{
+		"id": "lmsweb-public",
+		"upstreamHost": "http://lmsweb:3000",
+		"matchUrl": [
+			"/*.json",
+			"/*.ico"
+		],
+		"methods": [
+			"GET"
+		],
+		"protectedResource": false
+	},
+	{
+		"id": "lmsweb-protectedResource-course",
+		"upstreamHost": "http://lmsweb:3000",
+		"matchUrl": [
+			"/course/**"
+		],
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"DELETE",
+			"PATCH"
+		],
+		"protectedResource": true
+	}
+]
