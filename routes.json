@@ -13,7 +13,7 @@
 			"DELETE",
 			"PATCH"
 		],
-		"protectedResource": true
+		"protectedResource": false
 	},
 	{
 		"id": "lmscore",
