@@ -34,7 +34,7 @@
 	},
 	{
 		"id": "lmscore",
-		"upstreamHost": "http://10.0.15.151:8080",
+		"upstreamHost": "http://34.87.190.243:8081",
 		"matchUrl": [
 			"/api/lmscore/**"
 		],
