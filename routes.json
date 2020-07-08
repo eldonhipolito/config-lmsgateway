@@ -17,7 +17,7 @@
 	},
 	{
 		"id": "lmscore",
-		"upstreamHost": "http://lmscore:8080",
+		"upstreamHost": "http://10.0.15.151:8080",
 		"matchUrl": [
 			"/api/lmscore/.*"
 		],
@@ -29,7 +29,7 @@
 			"PATCH",
 			"DELETE"
 		],
-		"protectedResource": true
+		"protectedResource": false
 	},
 	{
 		"id": "lmsauth-authenticate",
