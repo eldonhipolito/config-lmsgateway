@@ -15,6 +15,23 @@
 		],
 		"protectedResource": false
 	},
+	
+	{
+		"id": "test2",
+		"upstreamHost": "http://httpbin.org:80",
+		"matchUrl": [
+			"/anything"
+		],
+		"stripPath": "",
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"DELETE",
+			"PATCH"
+		],
+		"protectedResource": false
+	},
 	{
 		"id": "lmscore",
 		"upstreamHost": "http://10.0.15.151:8080",
