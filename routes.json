@@ -5,7 +5,7 @@
 		"matchUrl": [
 			"/api/sys/anything"
 		],
-		"stripPath": "api/sys",
+		"stripPath": "/api/sys",
 		"methods": [
 			"GET",
 			"PUT",
