@@ -31,6 +31,22 @@
 		],
 		"protectedResource": false
 	},
+		{
+		"id": "register",
+		"upstreamHost": "http://10.0.13.56:8888",
+		"matchUrl": [
+			"/api/authn/register"
+		],
+		"stripPath": "/api",
+		"methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"DELETE",
+			"PATCH"
+		],
+		"protectedResource": false
+	},
 	
 	{
 		"id": "test2",
