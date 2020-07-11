@@ -8,4 +8,4 @@ spring:
             allowedOrigins: "http://localhost:3000"
             allowedMethods:
             - GET
-            - OPTIONS
+        add-to-simple-url-handler-mapping: true
