@@ -80,8 +80,7 @@
 			"PUT",
 			"POST",
 			"PATCH",
-			"DELETE",
-			"OPTIONS"
+			"DELETE"
 		],
 		"protectedResource": false
 	}
