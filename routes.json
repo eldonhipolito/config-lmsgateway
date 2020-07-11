@@ -11,7 +11,8 @@
 			"PUT",
 			"POST",
 			"DELETE",
-			"PATCH"
+			"PATCH",
+			"OPTIONS"
 		],
 		"protectedResource": false
 	},
@@ -27,7 +28,8 @@
 			"PUT",
 			"POST",
 			"DELETE",
-			"PATCH"
+			"PATCH",
+			"OPTIONS"
 		],
 		"protectedResource": false
 	},
@@ -43,7 +45,8 @@
 			"PUT",
 			"POST",
 			"DELETE",
-			"PATCH"
+			"PATCH",
+			"OPTIONS"
 		],
 		"protectedResource": false
 	},
@@ -60,7 +63,8 @@
 			"PUT",
 			"POST",
 			"DELETE",
-			"PATCH"
+			"PATCH",
+			"OPTIONS"
 		],
 		"protectedResource": false
 	},
@@ -76,7 +80,8 @@
 			"PUT",
 			"POST",
 			"PATCH",
-			"DELETE"
+			"DELETE",
+			"OPTIONS"
 		],
 		"protectedResource": false
 	}
