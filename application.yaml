@@ -1,13 +1,1 @@
-spring:
-  cloud:
-    gateway:
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-            allowedOrigins: http://localhost:3000
-            allowedHeaders: "*"
-            allowedMethods:
-              - POST
-              - PUT
-              - PATCH
-              - DELETE
+
